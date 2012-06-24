@@ -18,7 +18,7 @@ using NHibernate.Tool.hbm2ddl;
 namespace OpenCurtain.UnitTests
 {
     [TestClass]
-    public class TestActRepository: TestRepository<ActMap>
+    public class TestActRepository: TestableRepository<ActMap>
     {
         [TestMethod]
         public void ActRepositoryCanSaveNewAct()

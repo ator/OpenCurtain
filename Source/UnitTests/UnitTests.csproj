@@ -58,10 +58,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestPlay.cs" />
     <Compile Include="SQLiteInMemoryTestConnectionProvider.cs" />
     <Compile Include="TestUnitOfWork.cs" />
     <Compile Include="TestActRepository.cs" />
-    <Compile Include="TestRepository.cs" />
+    <Compile Include="TestableRepository.cs" />
     <Compile Include="TestSetting.cs" />
     <Compile Include="TestCharacter.cs" />
     <Compile Include="TestDirection.cs" />

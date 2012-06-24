@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Act.cs" />
+    <Compile Include="Domain\Play.cs" />
     <Compile Include="Domain\Setting.cs" />
     <Compile Include="Domain\Character.cs" />
     <Compile Include="Domain\Direction.cs" />

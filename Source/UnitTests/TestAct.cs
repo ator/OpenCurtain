@@ -12,6 +12,27 @@ namespace OpenCurtain.UnitTests
     public class TestAct
     {
         [TestMethod]
+        public void ActCanSetTitle()
+        {
+            var target = new Act();
+            Assert.IsNull(target.Title);
+
+            target.Title = "Act 1";
+            Assert.AreEqual("Act 1", target.Title);
+        }
+
+        [TestMethod]
+        public void ActCanSetPlay()
+        {
+            var target = new Act();
+            Assert.IsNull(target.Play);
+
+            var play = new Play();
+            target.Play = play;
+            Assert.AreEqual(play, target.Play);
+        }
+
+        [TestMethod]
         public void ActCanAddScene()
         {
             var target = new Act();

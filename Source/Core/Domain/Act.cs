@@ -9,6 +9,7 @@ namespace OpenCurtain.Core.Domain
     {
         public virtual int Id { get; protected set; }
         public virtual string Title { get; set; }
+        public virtual Play Play { get; set; }
         public virtual IList<Scene> Scenes { get; protected set; }
 
         public Act()
